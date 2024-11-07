@@ -2,3 +2,11 @@ img {
     float:left;
     margin: 5px;
 }
+
+h2 {
+    text-align: justify;
+}
+
+dl {
+    float: right;
+}

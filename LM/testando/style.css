@@ -12,3 +12,8 @@ strong {
     font-size: 15px;
     text-align:center;
 }
+
+video {
+    width: 200px;
+    height: 200px;
+}
