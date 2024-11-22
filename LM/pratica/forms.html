@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Responda aí, meu camarada!</h1>
+    <form action="#"> 
+        <label for="name">Nome:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <p>Você é:</p>
+        <input type="radio" id="homem" name="gender" value="homem">
+        <label for="homem">Homem</label><br>
+        <input type="radio" id="mulher" name="gender" value="mulher">
+        <label for="mulher">Mulher</label><br>
+        <input type="radio" id="naovoufalar" name="gender" value="naovoufalar">
+        <label for="naovoufalar">Oxe, quer saber por quê?</label><br>
+        <label for="birthday">Data de nascimento:</label>
+        <input type="date" id="birthday" name="birthday"><br>
+        <label for="favcolor">Selecione sua cor favorita:</label>
+        <input type="color" id="favcolor" name="favcolor"><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Apagar respostas">
+    </form>
+</body>
+</html>
