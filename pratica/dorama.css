@@ -1,0 +1,10 @@
+h1 {
+    background-color: blue;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+p {
+    color: orange;
+}

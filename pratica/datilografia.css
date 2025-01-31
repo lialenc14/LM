@@ -1,0 +1,16 @@
+h1 {
+    margin-left: 37%;
+}
+
+video {
+    margin-left:40%;
+    width: 300px;
+    height: 300px;
+}
+
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    text-align: center;
+    color: rgb(17, 17, 83);
+}

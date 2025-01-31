@@ -1,0 +1,23 @@
+#container {
+  display: grid;
+  grid-template-areas: 
+  "cabecalho cabecalho cabecalho"
+  "menu conteudo conteudo"
+  "rodape rodape rodape";
+}
+
+#cabecalho {
+  grid-area: cabecalho;
+}
+
+#menu {
+  grid-area: menu;
+}
+
+#conteudo {
+  grid-area: conteudo;
+}
+
+#rodape {
+  grid-area: rodape;
+}
